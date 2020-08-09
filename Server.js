@@ -20,8 +20,10 @@ const empl2 = {
 const textHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'text/plain', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
 const jsonHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
 
-http.createServer((req, res) => {
 
+// ajab chizist
+http.createServer((req, res) => {
+    //vay baba
     console.log('called page!');
     const url = req.url;
     switch (url) {
